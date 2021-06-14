@@ -21,5 +21,8 @@ spec:
       containers:
       - image: dockercoins/worker:v0.1
         name: worker
+	ports:
+            - containerPort: 8080
+              name: worker
         resources: {}
 status: {}
