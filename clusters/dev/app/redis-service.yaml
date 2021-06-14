@@ -10,7 +10,7 @@ spec:
   - name: redis
     port: 8080
     protocol: TCP
-    targetPort: 6379
+    targetPort: 8080
   selector:
     app: redis
   type: ClusterIP
