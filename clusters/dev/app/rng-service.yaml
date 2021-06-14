@@ -5,6 +5,7 @@ metadata:
   labels:
     app: rng
   name: rng
+  namespace: pretest
 spec:
   ports:
   - name: rng

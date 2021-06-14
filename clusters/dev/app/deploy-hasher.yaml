@@ -5,6 +5,7 @@ metadata:
   labels:
     app: hasher
   name: hasher
+  namespace: pretest
 spec:
   replicas: 1
   selector:

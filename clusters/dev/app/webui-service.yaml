@@ -5,6 +5,7 @@ metadata:
   labels:
     app: webui
   name: webui
+  namespace: pretest
 spec:
   ports:
   - name: webui
