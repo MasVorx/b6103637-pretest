@@ -21,8 +21,5 @@ spec:
       containers:
       - image: dockercoins/hasher:v0.1
         name: hasher
-	ports:
-            - containerPort: 8080
-              name: hasher
         resources: {}
 status: {}

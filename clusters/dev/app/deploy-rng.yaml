@@ -21,8 +21,5 @@ spec:
       containers:
       - image: dockercoins/rng:v0.1
         name: rng
-	ports:
-            - containerPort: 8080
-              name: rng
         resources: {}
 status: {}

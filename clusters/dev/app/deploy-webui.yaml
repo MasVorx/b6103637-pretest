@@ -19,8 +19,5 @@ spec:
       containers:
       - image: dockercoins/webui:v0.1
         name: webui
-	ports:
-            - containerPort: 8080
-              name: webui
         resources: {}
 status: {}
