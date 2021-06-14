@@ -8,10 +8,10 @@ metadata:
   namespace: pretest
 spec:
   ports:
-  - name: 8080-8080
+  - name: worker
     port: 8080
     protocol: TCP
-    targetPort: 8086
+    targetPort: 8080
   selector:
     app: worker
   type: ClusterIP
