@@ -5,7 +5,6 @@ metadata:
   labels:
     app: rng
   name: rng
-  namespace: pretest
 spec:
   replicas: 1
   selector:

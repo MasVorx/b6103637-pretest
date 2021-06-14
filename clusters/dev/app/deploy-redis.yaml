@@ -5,7 +5,6 @@ metadata:
   labels:
     app: redis
   name: redis
-  namespace: pretest
 spec:
   replicas: 1
   selector:
