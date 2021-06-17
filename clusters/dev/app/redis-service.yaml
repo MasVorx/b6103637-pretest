@@ -7,10 +7,10 @@ metadata:
   namespace: pretest
 spec:
   ports:
-  - name: redis
-    port: 6379
+  - name: 8080
+    port: 80
     protocol: TCP
-    targetPort: 6379
+    targetPort: 80
   selector:
     app: redis
   type: ClusterIP
